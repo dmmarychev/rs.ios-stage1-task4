@@ -10,4 +10,12 @@
 
 @implementation TreeNode
 
+- (instancetype)init {
+    self = [super init];
+    if (self) {
+        _value = 0;
+    }
+    return self;
+}
+
 @end

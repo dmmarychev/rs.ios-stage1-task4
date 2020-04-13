@@ -85,6 +85,7 @@ typedef enum {
     return firstMaxValue * secondMaxValue;
 }
 
+
 + (NSArray *)array:(NSArray *)array byRemovingMaxValueWithNumberSign:(NumberSign)sign {
     
     NSMutableArray *result = [NSMutableArray arrayWithArray:array];

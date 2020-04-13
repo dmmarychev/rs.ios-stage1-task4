@@ -12,7 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface TreeNode : NSObject
 
-@property (strong, nonatomic) NSString *value;
+@property (assign, nonatomic) NSInteger value;
 @property (strong, nonatomic) TreeNode *leftNode;
 @property (strong, nonatomic) TreeNode *rightNode;
 

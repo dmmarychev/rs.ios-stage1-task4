@@ -20,6 +20,7 @@
     return result;
 }
 
+
 - (NSArray *)decomposeValue:(NSInteger)value withSquareOfSourceValue:(NSInteger)square {
     
     NSInteger squareValue = pow(value, 2);

@@ -1,6 +1,7 @@
 #import "TelephoneFinder.h"
 
 @implementation TelephoneFinder
+
 - (NSArray <NSString*>*)findAllNumbersFromGivenNumber:(NSString*)number {
     
     if ([number integerValue] < 0) {
